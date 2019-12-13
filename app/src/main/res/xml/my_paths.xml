@@ -1,0 +1,7 @@
+
+
+<paths>
+    <external-path
+        name="/glucosio/"
+        path="." />
+</paths>

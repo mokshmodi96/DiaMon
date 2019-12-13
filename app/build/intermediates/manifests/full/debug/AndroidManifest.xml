@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.login_signup_screendesign_demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name="com.diabites.android.GlucosioApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.diabites.SplashActivity"
+            android:theme="@style/SAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ChoiceActivity"
+            android:theme="@style/SAppTheme" />
+        <activity
+            android:name="com.diabites.doctor.DoctorMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.diabites.client.ClientMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/GlucosioTheme" />
+        <activity
+            android:name="com.diabites.android.activity.HelloActivity"
+            android:label="@string/title_activity_hello"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name="com.diabites.android.activity.PreferencesActivity"
+            android:theme="@style/GlucosioSettings" />
+        <activity
+            android:name="com.diabites.android.activity.ExternalLinkActivity"
+            android:theme="@style/GlucosioSettings" />
+        <activity
+            android:name="com.diabites.android.activity.AboutActivity"
+            android:theme="@style/GlucosioSettings" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.login_signup_screendesign_demo.provider.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:readPermission="com.login_signup_screendesign_demo.provider.fileprovider.READ" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/my_paths" />
+        </provider>
+
+        <activity
+            android:name="com.diabites.android.activity.AddGlucoseActivity"
+            android:label="@string/title_activity_add_glucose"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.AddWeightActivity"
+            android:label="@string/title_activity_add_weight"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.AddCholesterolActivity"
+            android:label="@string/title_activity_add_cholesterol"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.AddKetoneActivity"
+            android:label="@string/title_activity_add_ketone"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.AddPressureActivity"
+            android:label="@string/title_activity_add_pressure"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.AddA1CActivity"
+            android:label="@string/title_activity_add_hb1ac"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.FreestyleLibreActivity"
+            android:screenOrientation="portrait" >
+
+            <!-- NFC for FreeStyle -->
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.diabites.android.activity.A1cCalculatorActivity"
+            android:label="@string/activity_converter_title"
+            android:parentActivityName="com.diabites.android.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".android.activity.MainActivity" />
+        </activity>
+        <activity android:name="com.diabites.android.activity.RemindersActivity" />
+        <activity android:name="com.diabites.client.CliendashMainActivity" />
+        <activity android:name="com.diabites.client.UserprofileActivity" />
+        <activity android:name="com.diabites.doctor.DocprofileActivity" />
+        <activity android:name="com.diabites.doctor.DoctorDashMainActivity" />
+        <activity
+            android:name="com.diabites.doctor.UserDetailActivity"
+            android:theme="@style/AppTheme123" />
+        <activity
+            android:name="com.diabites.client.DocprecpActivity"
+            android:theme="@style/AppTheme123" />
+        <activity
+            android:name="com.diabites.client.DocDetailActivity"
+            android:theme="@style/AppTheme123" />
+    </application>
+
+</manifest>

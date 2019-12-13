@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bt_user"
+        android:layout_width="300dp"
+        android:text="User"
+        android:padding="15dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---OR---"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/bt_doc"
+        android:layout_width="300dp"
+        android:text="Doctor"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/bt_diab"
+        android:layout_width="300dp"
+        android:text="Glucose Monitoring"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

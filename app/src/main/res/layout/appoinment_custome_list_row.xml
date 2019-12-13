@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:id="@+id/rl_dlist"
+    android:layout_height="110dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Appointment To:-"
+        android:id="@+id/tv_appionment"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="10dp"
+        android:ellipsize="marquee"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Doctor"
+        android:layout_toRightOf="@+id/tv_appionment"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_appionmentby"
+        android:ellipsize="end"
+        />
+<TextView
+    android:id="@+id/tv_apdate"
+    android:textSize="16sp"
+    android:textColor="@color/white"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:text="201-02-20"
+    android:layout_below="@+id/tv_appionment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_aptime"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Appionment time"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_appionment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_apstatus"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Pending"
+        android:layout_below="@+id/tv_apdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

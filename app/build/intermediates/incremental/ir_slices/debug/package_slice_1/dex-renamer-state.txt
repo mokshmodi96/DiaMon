@@ -1,0 +1,4 @@
+#Wed May 01 11:48:52 IST 2019
+base.0=D\:\\Android\\Diamon app\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,397 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:57:9-66:20
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:57:9-66:20
+	android:readPermission
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:62:13-81
+	android:grantUriPermissions
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:61:13-47
+	android:authorities
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:59:13-73
+	android:exported
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:58:13-67
+manifest
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+MERGED from [io.realm:realm-android-library:5.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\realm-android-library-5.1.0.aar\55baf01c81812df66787b9ce67fa1908\AndroidManifest.xml:2:1-10:12
+MERGED from [com.mikepenz:materialdrawer:6.0.7] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\materialdrawer-6.0.7.aar\a0bf7963d56c9c698e89ab21c9d63213\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c92af6b21252fb5aa0b46ad20dcc36d9\AndroidManifest.xml:17:1-22:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\4535a3b24e3e4915006d366708e0a6f3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\70089827cdb663b7830ddbd6d113ca03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\75b004c1c2987e16e737c7209de07df8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\53931758a1e398bb30a685e1aeecc0c5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\e493b7d15f70f77faac74526fe38d851\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fda560842387c1ac79b04eae3dce5738\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:percent:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\5797e02ec690c4571e716907c65a1ead\AndroidManifest.xml:17:1-22:12
+MERGED from [net.danlew:android.joda:2.9.9.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\android.joda-2.9.9.4.aar\6b2af5a9dcdb74354e1c723e5430e5c3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.paolorotolo:expandableheightlistview:1.0.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\expandableheightlistview-1.0.0.aar\95845eb7a4e6e8947bc05f45ffe7dc1d\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\72dd6f253d9c7703df6be77fafc0e98e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\cdc756f57ba566d6bcc7be1606bab8a6\AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\9c472dd145305ae1c274315f2b7b0b07\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\57d92c044dce754d6f00fb4c4c3d7c48\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3824aec379d77490f06c60dce207f52e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\41b047ed60775765da0483e0123182cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\66c539c5303696422f842e5b1a527f1a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b0b8557b6ca877ec042651ad2716a9c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8c2c8781b6df61bfe48c46980694b499\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\bdc9d85b1fa54f07c336e4d246694673\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9c5d769bea2d845ec740b27e750b45ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikepenz:materialize:1.1.2] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\materialize-1.1.2.aar\7a5bc47f9877c632ab7fae82082b329f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:iconics-core:3.0.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\iconics-core-3.0.3.aar\865b906132d75b3de4fdd40744d6bb4a\AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:fastadapter:3.2.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\fastadapter-3.2.4.aar\d92d710c334c77c812b9c0752d5ac93a\AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.2.4.aar\c0885a647bd690e7b8ba455b61d1d63d\AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\20edd83d131ccb469ec2c7915394b430\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fd974b8f4a28302ad96993c2752b3bfe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d95443811d8c9a15b54017c124a0442e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\297ea750de01690061e8bab1fb1113ae\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:1-159:12
+	package
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:9:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:10:5-12:36
+	android:required
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:12:9-33
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:11:9-52
+application
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:13:5-157:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\4535a3b24e3e4915006d366708e0a6f3\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\4535a3b24e3e4915006d366708e0a6f3\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\53931758a1e398bb30a685e1aeecc0c5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\53931758a1e398bb30a685e1aeecc0c5\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\72dd6f253d9c7703df6be77fafc0e98e\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\72dd6f253d9c7703df6be77fafc0e98e\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:17:9-52
+activity#com.diabites.SplashActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:19:9-26:20
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:19:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.ChoiceActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:27:9-28:47
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:27:19-52
+activity#com.diabites.doctor.DoctorMainActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:29:9-33:20
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:30:13-66
+activity#com.diabites.client.ClientMainActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:34:9-37:20
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:35:13-54
+activity#com.diabites.android.activity.MainActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:40:9-43:52
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:42:13-45
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:41:13-58
+activity#com.diabites.android.activity.HelloActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:44:9-47:58
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:46:13-57
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:47:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:45:13-59
+activity#com.diabites.android.activity.PreferencesActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:48:9-50:55
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:50:13-52
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:49:13-65
+activity#com.diabites.android.activity.ExternalLinkActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:51:9-53:55
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:53:13-52
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:52:13-66
+activity#com.diabites.android.activity.AboutActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:54:9-56:55
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:56:13-52
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:55:13-59
+activity#com.diabites.android.activity.AddGlucoseActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:67:9-75:20
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:70:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:69:13-63
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:71:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:68:13-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:72:13-74:66
+	android:value
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:74:17-63
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:73:17-63
+activity#com.diabites.android.activity.AddWeightActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:76:9-84:20
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:79:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:78:13-62
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:80:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:77:13-63
+activity#com.diabites.android.activity.AddCholesterolActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:85:9-93:20
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:88:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:87:13-67
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:89:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:86:13-68
+activity#com.diabites.android.activity.AddKetoneActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:94:9-102:20
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:97:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:96:13-62
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:98:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:95:13-63
+activity#com.diabites.android.activity.AddPressureActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:103:9-111:20
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:106:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:105:13-64
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:107:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:104:13-65
+activity#com.diabites.android.activity.AddA1CActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:112:9-120:20
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:115:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:114:13-61
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:116:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:113:13-60
+activity#com.diabites.android.activity.FreestyleLibreActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:121:9-135:20
+	android:screenOrientation
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:122:13-68
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:126:13-130:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:127:17-77
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:127:25-74
+category#android.intent.category.DEFAULT
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:129:17-76
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:129:27-73
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:132:13-134:59
+	android:resource
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:134:17-56
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:133:17-66
+activity#com.diabites.android.activity.A1cCalculatorActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:136:9-145:20
+	android:screenOrientation
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:140:13-49
+	android:parentActivityName
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:139:13-72
+	android:label
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:138:13-61
+	android:windowSoftInputMode
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:141:13-55
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:137:13-67
+activity#com.diabites.android.activity.RemindersActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:146:9-81
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:146:19-69
+activity#com.diabites.client.CliendashMainActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:147:9-65
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:147:19-63
+activity#com.diabites.client.UserprofileActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:148:9-63
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:148:19-61
+activity#com.diabites.doctor.DocprofileActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:149:9-62
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:149:19-60
+activity#com.diabites.doctor.DoctorDashMainActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:150:9-66
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:150:19-64
+activity#com.diabites.doctor.UserDetailActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:151:9-152:49
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:152:13-47
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:151:19-60
+activity#com.diabites.client.DocprecpActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:153:9-154:49
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:154:13-47
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:153:19-58
+activity#com.diabites.client.DocDetailActivity
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:155:9-156:49
+	android:theme
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:156:13-47
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:155:19-59
+uses-sdk
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:5.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\realm-android-library-5.1.0.aar\55baf01c81812df66787b9ce67fa1908\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:5.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\realm-android-library-5.1.0.aar\55baf01c81812df66787b9ce67fa1908\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mikepenz:materialdrawer:6.0.7] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\materialdrawer-6.0.7.aar\a0bf7963d56c9c698e89ab21c9d63213\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:materialdrawer:6.0.7] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\materialdrawer-6.0.7.aar\a0bf7963d56c9c698e89ab21c9d63213\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c92af6b21252fb5aa0b46ad20dcc36d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c92af6b21252fb5aa0b46ad20dcc36d9\AndroidManifest.xml:20:5-44
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\4535a3b24e3e4915006d366708e0a6f3\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\4535a3b24e3e4915006d366708e0a6f3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\70089827cdb663b7830ddbd6d113ca03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\70089827cdb663b7830ddbd6d113ca03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\75b004c1c2987e16e737c7209de07df8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\75b004c1c2987e16e737c7209de07df8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\53931758a1e398bb30a685e1aeecc0c5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\53931758a1e398bb30a685e1aeecc0c5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\e493b7d15f70f77faac74526fe38d851\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\e493b7d15f70f77faac74526fe38d851\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fda560842387c1ac79b04eae3dce5738\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fda560842387c1ac79b04eae3dce5738\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\5797e02ec690c4571e716907c65a1ead\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\5797e02ec690c4571e716907c65a1ead\AndroidManifest.xml:20:5-44
+MERGED from [net.danlew:android.joda:2.9.9.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\android.joda-2.9.9.4.aar\6b2af5a9dcdb74354e1c723e5430e5c3\AndroidManifest.xml:5:5-43
+MERGED from [net.danlew:android.joda:2.9.9.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\android.joda-2.9.9.4.aar\6b2af5a9dcdb74354e1c723e5430e5c3\AndroidManifest.xml:5:5-43
+MERGED from [com.github.paolorotolo:expandableheightlistview:1.0.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\expandableheightlistview-1.0.0.aar\95845eb7a4e6e8947bc05f45ffe7dc1d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:expandableheightlistview:1.0.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\expandableheightlistview-1.0.0.aar\95845eb7a4e6e8947bc05f45ffe7dc1d\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\72dd6f253d9c7703df6be77fafc0e98e\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\72dd6f253d9c7703df6be77fafc0e98e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\cdc756f57ba566d6bcc7be1606bab8a6\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\cdc756f57ba566d6bcc7be1606bab8a6\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\9c472dd145305ae1c274315f2b7b0b07\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\9c472dd145305ae1c274315f2b7b0b07\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\57d92c044dce754d6f00fb4c4c3d7c48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\57d92c044dce754d6f00fb4c4c3d7c48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3824aec379d77490f06c60dce207f52e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3824aec379d77490f06c60dce207f52e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\41b047ed60775765da0483e0123182cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\41b047ed60775765da0483e0123182cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\66c539c5303696422f842e5b1a527f1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\66c539c5303696422f842e5b1a527f1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b0b8557b6ca877ec042651ad2716a9c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b0b8557b6ca877ec042651ad2716a9c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8c2c8781b6df61bfe48c46980694b499\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8c2c8781b6df61bfe48c46980694b499\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\bdc9d85b1fa54f07c336e4d246694673\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\bdc9d85b1fa54f07c336e4d246694673\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9c5d769bea2d845ec740b27e750b45ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9c5d769bea2d845ec740b27e750b45ef\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:materialize:1.1.2] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\materialize-1.1.2.aar\7a5bc47f9877c632ab7fae82082b329f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.1.2] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\materialize-1.1.2.aar\7a5bc47f9877c632ab7fae82082b329f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:3.0.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\iconics-core-3.0.3.aar\865b906132d75b3de4fdd40744d6bb4a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:3.0.3] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\iconics-core-3.0.3.aar\865b906132d75b3de4fdd40744d6bb4a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:3.2.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\fastadapter-3.2.4.aar\d92d710c334c77c812b9c0752d5ac93a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:3.2.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\fastadapter-3.2.4.aar\d92d710c334c77c812b9c0752d5ac93a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.2.4.aar\c0885a647bd690e7b8ba455b61d1d63d\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.2.4.aar\c0885a647bd690e7b8ba455b61d1d63d\AndroidManifest.xml:8:5-10:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\20edd83d131ccb469ec2c7915394b430\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\20edd83d131ccb469ec2c7915394b430\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fd974b8f4a28302ad96993c2752b3bfe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fd974b8f4a28302ad96993c2752b3bfe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d95443811d8c9a15b54017c124a0442e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d95443811d8c9a15b54017c124a0442e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\297ea750de01690061e8bab1fb1113ae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\moksh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\297ea750de01690061e8bab1fb1113ae\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:63:13-65:52
+	android:resource
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:65:17-49
+	android:name
+		ADDED from D:\Android\Diamon app\app\src\main\AndroidManifest.xml:64:17-67

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\Diamon app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rNZ\\values-en-rNZ.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\moksh\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.9.4.aar\\6b2af5a9dcdb74354e1c723e5430e5c3\\res\\values-en-rNZ\\values-en-rNZ.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
